@@ -54,15 +54,6 @@
         };
     };
 
-    macros {
-        to_layer_0: to_layer_0 {
-            compatible = "zmk,behavior-macro-one-param";
-            #binding-cells = <1>;
-            bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
-            label = "TO_LAYER_0";
-        };
-    };
-
     behaviors {
         lt_to_layer_0: lt_to_layer_0 {
             compatible = "zmk,behavior-hold-tap";
@@ -90,10 +81,10 @@
 
         number {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&trans  &trans  &trans  &trans  &trans  &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans                          &kp F12
+&kp PRINTSCREEN  &kp N7        &kp N8        &kp N9        &kp COLON                     &kp PAGE_UP  &kp F2           &kp UP        &kp F4             &kp PAGE_DOWN
+&kp N0           &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS   &none      &none  &kp F6       &kp LEFT         &kp DOWN      &kp RIGHT          &kp DEL
+&none            &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD  &none      &none  &kp HOME     &kp LC(PAGE_UP)  &kp LC(HOME)  &kp LC(PAGE_DOWN)  &kp END
+&mkp MB1         &none         &none         &none         &trans      &none      &none  &trans                                                         &mkp MB2
             >;
         };
 
