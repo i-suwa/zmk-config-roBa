@@ -46,7 +46,7 @@
 &kp PRINTSCREEN  &kp N7        &kp N8        &kp N9        &kp COLON                         &kp PAGE_UP  &kp LC(LG(LEFT))  &kp UP        &kp LC(LG(RIGHT))  &kp PAGE_DOWN
 &kp N0           &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS       &none      &none  &none        &kp LEFT          &kp DOWN      &kp RIGHT          &kp DEL
 &none            &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD      &none      &none  &kp HOME     &kp LC(PAGE_UP)   &kp LC(HOME)  &kp LC(PAGE_DOWN)  &kp END
-&mkp MB1         &none         &none         &none         &kp LANGUAGE_1  &none      &none  &kp INT2                                                        &mkp MB2
+&mkp MB1         &none         &none         &none         &kp LANGUAGE_2  &none      &none  &kp INT2                                                        &mkp MB2
             >;
         };
 
@@ -61,10 +61,10 @@
 
         scroll {
             bindings = <
-&trans  &kp LANGUAGE_7  &kp LANGUAGE_8  &kp LANGUAGE_9  &trans                        &trans    &kp INTERNATIONAL_7  &kp INTERNATIONAL_8  &kp INTERNATIONAL_9  &trans
-&trans  &kp LANGUAGE_4  &kp LANGUAGE_5  &kp LANGUAGE_6  &trans  &trans      &trans    &trans    &kp INTERNATIONAL_4  &kp INTERNATIONAL_5  &sk INTERNATIONAL_6  &trans
-&trans  &kp LANGUAGE_1  &kp LANGUAGE_2  &kp LANGUAGE_3  &trans  &trans      &trans    &trans    &kp INTERNATIONAL_1  &kp INTERNATIONAL_2  &sk INTERNATIONAL_3  &trans
-&trans  &trans          &trans          &trans          &trans  &trans      &mkp MB4  &mkp MB5                                                                 &trans
+&trans  &none   &none   &none   &trans                        &trans    &none  &none  &none  &trans
+&trans  &none   &none   &none   &trans  &trans      &trans    &trans    &none  &none  &none  &trans
+&trans  &none   &none   &none   &trans  &trans      &trans    &trans    &none  &none  &none  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &mkp MB4  &mkp MB5                       &trans
             >;
         };
     };
