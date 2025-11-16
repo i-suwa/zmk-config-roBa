@@ -69,19 +69,19 @@
 
         number {
             bindings = <
-&kp PRINTSCREEN  &kp N7        &kp N8        &kp N9        &kp COLON                         &kp PAGE_UP     &kp LC(LG(LEFT))  &kp UP        &kp LC(LG(RIGHT))  &kp PAGE_DOWN
-&kp N0           &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS       &none      &none  &none           &kp LEFT          &kp DOWN      &kp RIGHT          &kp DEL
-&none            &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD      &none      &none  &kp HOME        &kp LC(PAGE_UP)   &kp LC(HOME)  &kp LC(PAGE_DOWN)  &kp END
-&mkp MB1         &none         &none         &none         &kp LANGUAGE_2  &none      &none  &kp LANGUAGE_1                                                     &mkp MB2
+&kp PRINTSCREEN  &kp N7        &kp N8        &kp N9        &kp COLON                         &kp PAGE_UP          &kp LC(LG(LEFT))  &kp UP        &kp LC(LG(RIGHT))  &kp PAGE_DOWN
+&kp N0           &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS       &none      &none  &none                &kp LEFT          &kp DOWN      &kp RIGHT          &kp DEL
+&none            &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD      &none      &none  &kp HOME             &kp LC(PAGE_UP)   &kp LC(HOME)  &kp LC(PAGE_DOWN)  &kp END
+&mkp MB1         &none         &none         &none         &kp LANGUAGE_2  &none      &none  &kp INTERNATIONAL_2                                                     &mkp MB2
             >;
         };
 
         symbol {
             bindings = <
-&kp NON_US_BACKSLASH  &kp AMPERSAND      &kp PIPE    &kp ASTERISK  &kp DOLLAR                         &none      &kp AT_SIGN     &kp LEFT_BRACE        &kp RIGHT_BRACE        &none
-&none                 &kp DOUBLE_QUOTES  &kp SQT     &kp MINUS     &kp EQUAL    &none       &none     &kp TILDE  &kp UNDERSCORE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GRAVE
-&none                 &kp SEMICOLON      &kp COLON   &kp PLUS      &kp PERCENT  &none       &trans    &kp CARET  &kp HASH        &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp EXCLAMATION
-&none                 &none              &kp PERIOD  &trans        &trans       &trans      &mkp MB4  &mkp MB5                                                                &mkp MB3
+&kp NON_US_BACKSLASH  &kp AMPERSAND      &kp PIPE    &kp ASTERISK  &kp DOLLAR                         &none      &kp AT_SIGN     &kp RIGHT_BRACKET  &kp BACKSLASH         &none
+&none                 &kp DOUBLE_QUOTES  &kp SQT     &kp MINUS     &kp EQUAL    &none       &none     &kp TILDE  &kp UNDERSCORE  &kp ASTERISK       &kp LEFT_PARENTHESIS  &kp GRAVE
+&none                 &kp SEMICOLON      &kp COLON   &kp PLUS      &kp PERCENT  &none       &trans    &kp CARET  &kp HASH        &kp RIGHT_BRACE    &kp PIPE              &kp EXCLAMATION
+&none                 &none              &kp PERIOD  &trans        &trans       &trans      &mkp MB4  &mkp MB5                                                            &mkp MB3
             >;
         };
 
